@@ -1,4 +1,7 @@
 package me.HeyAwesomePeople.Payload.game;
 
-public class Team {
+public enum Team {
+
+    BLU, RED, SPEC, LOBB;
+
 }
