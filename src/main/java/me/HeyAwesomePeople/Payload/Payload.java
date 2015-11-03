@@ -14,6 +14,7 @@ public class Payload extends JavaPlugin {
 
         mapManager = new MapManager();
 
+        
     }
 
     @Override
