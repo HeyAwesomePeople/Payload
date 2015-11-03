@@ -1,0 +1,24 @@
+health:
+  displayName: '&4Health Pack'
+  displayItem: 'APPLE'
+  healthRegen: 4
+ammo:
+  displayName: '&5Ammo Pack'
+  displayItem: 'STICK'
+  ammoGiven: 16
+token:
+  displayName: '&8Token!'
+  displayItem: 'BLAZE_ROD'
+  tokensGiven: 1
+instakill:
+  displayName: '&9Instakill'
+  displayItem: 'DIAMOND_SWORD'
+  duration: 100
+strength:
+  displayName: '&1Strength'
+  displayItem: 'POTION'
+  duration: 200
+speed:
+  displayName: '&bSpeed'
+  displayItem: 'SUGAR'
+  duration: 150

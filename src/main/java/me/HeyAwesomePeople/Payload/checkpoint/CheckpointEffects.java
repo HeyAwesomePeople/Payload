@@ -4,6 +4,4 @@ public enum CheckpointEffects {
 
     NONE, CIRCLE, BOX, CONE;
 
-
-
 }

@@ -42,7 +42,10 @@ public class CheckpointListener implements Listener {
     }
 
     public void placedBlock(Checkpoint c, Checkpoint.CheckpointTeam ct, Block b) {
-
+        if (removedBlocks.get(c).get(ct).equals(b)) {
+            removedBlocks.remove(c);
+            return;
+        }
     }
 
     public void removedBlock(Checkpoint c, Checkpoint.CheckpointTeam ct, Block b) {
